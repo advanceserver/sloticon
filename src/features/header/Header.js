@@ -1,5 +1,5 @@
 import { faCog, faUserCircle } from '@fortawesome/free-solid-svg-icons';
-import logo from 'src/logo.svg';
+import logo from 'logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 import { useSelector } from 'react-redux';
@@ -28,7 +28,7 @@ const Header = (props) => {
   return (
     <div className="Header">
       <div className="brand">
-        <img rel="logo" src="/src/logo.svg" alt="Logo" className="logo" />
+        <img src={logo} alt="Logo" />
         <span className="name">Slots Now!</span>
       </div>
 
