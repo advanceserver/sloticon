@@ -1,5 +1,5 @@
 import { faCog, faUserCircle } from '@fortawesome/free-solid-svg-icons';
-import logo from 'src/logo.svg';
+import logo from '../../../src/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 import { useSelector } from 'react-redux';
