@@ -1,4 +1,5 @@
-import { faCog, faCrown, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { faCog, faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import logo from 'src/logo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Header.scss';
 import { useSelector } from 'react-redux';
@@ -27,8 +28,8 @@ const Header = (props) => {
   return (
     <div className="Header">
       <div className="brand">
-        <FontAwesomeIcon icon={faCrown} size="2x" className="logo"></FontAwesomeIcon>
-        <span className="name">Sloticon</span>
+        <img rel="logo" src="/src/logo.svg" alt="Logo" className="logo" />
+        <span className="name">Slots Now!</span>
       </div>
 
       <div className={`menu ${!loggedIn ? 'd-none' : ''}`}>
